@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Res\AppIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Res\AppIcon.ico" />
+    <None Remove="Res\book0.jpg" />
+    <None Remove="Res\book1.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Res\AppIcon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\BooksApi\BooksApiClient\BooksApiClient.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Res\AppIcon.ico" />
+    <EmbeddedResource Include="Res\book0.jpg" />
+    <EmbeddedResource Include="Res\book1.jpg" />
+  </ItemGroup>
+
+</Project>
