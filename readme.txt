@@ -24,3 +24,6 @@ mikalaha@gmail.com
 skype: mikalaha
 telegram: @mikalaha
 whatsapp(phone): +7(910)-748-13-39
+
+Полное резюме:
+https://docs.google.com/document/d/1w8NHMINOOs2SOWQMd-ddC5y8U1waa2K65gLsZ3DAsdw/edit?usp=sharing
